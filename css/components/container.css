@@ -1,0 +1,29 @@
+.text-center {
+  text-align: center;
+}
+
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+.container .cards {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 25px;
+  padding: 15px;
+}
+
+.container .card {
+  border: 1px solid rgb(55, 82, 90);
+  text-align: center;
+  width: 200px;
+  padding: 50px;
+  margin: 0 15px;
+  border-radius: 7px;
+  box-shadow: 0 0 10px rgb(55, 82, 90);
+}
+
+.container .card img {
+  height: 50px;
+}

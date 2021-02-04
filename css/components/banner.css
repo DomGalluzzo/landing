@@ -1,0 +1,35 @@
+.banner {
+  /* display: flex; */
+  background-image: linear-gradient(rgba(70, 70, 70, 0.3), rgba(70, 70, 70, 0.3)), url(https://images.unsplash.com/photo-1457364887197-9150188c107b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+  background-size: cover;
+  background-position: bottom;
+  padding: 200px;
+  margin: 0 auto;
+}
+
+
+.banner-container {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: column wrap;
+  flex-grow: 0;
+  color: rgba(255, 255, 255, 0.712);
+}
+
+.banner-container .button {
+  width: 125px;
+  height: 50px;
+  border: 1px solid rgba(204, 74, 20, 0.80);
+  background-color: rgba(204, 74, 20, 0.80);
+  border-radius: 25px;
+  box-shadow: 0 0 5px;
+}
+
+.banner-container .button span {
+  display: flex;
+  color: rgba(255, 255, 255, 0.712);
+  font-size: 17px;
+  font-weight: bolder;
+  justify-content: center;
+  padding: 12px;
+}

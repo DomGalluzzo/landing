@@ -1,0 +1,47 @@
+.footer {
+  background-color: rgba(55, 82, 90, 1);
+  margin-top: 75px;
+}
+
+.footer-container {
+  width: 900px;
+  margin: auto;
+}
+
+.footer-container p {
+  color: rgba(255, 255, 255, 0.712);
+  text-align: center;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.footer-container .cards {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.footer-container .cards .card {
+  display: flex;
+  padding: 15px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.footer-container .cards .card i {
+  color: lightgray;
+  margin: 0 100px;
+}
+
+.footer-container .cards .card #youtube:hover {
+  color:rgb(243, 0, 15);
+}
+
+.footer-container .cards .card #facebook:hover {
+  color:rgba(24, 115, 235, 1);
+}
+
+.footer-container .cards .card #main:hover {
+  color:rgb(36, 204, 99)
+}
